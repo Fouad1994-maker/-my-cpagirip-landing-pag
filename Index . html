@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Your Happiness Journey</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0f7fa;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #00796b;
+        }
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #28a745;
+            color: white;
+            font-size: 18px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Start Your Happiness Journey Now!</h1>
+    <a href="#" class="button" onclick="openLocker()">Unlock Your Journey</a>
+
+    <script>
+        function openLocker() {
+            // فتح محتوى CPAGrip
+            window.open('https://passwordomain.com/script_include.php?id=1751042');
+
+            // إعادة التوجيه إلى Coursera بعد 5 ثوانٍ
+            setTimeout(function() {
+                window.location.href = 'https://www.coursera.org/learn/the-science-of-well-being';
+            }, 5000);
+        }
+    </script>
+</body>
+</html>
